@@ -7,9 +7,12 @@
 qt_beta(asset_1, asset_2)
 }
 \arguments{
-\item{asset_1}{Independant Variable}
+\item{asset_1}{Independent Variable}
 
-\item{asset_2}{Dependant Variable}
+\item{asset_2}{Dependent Variable}
+}
+\value{
+A numeric value: The Beta
 }
 \description{
 Calculates the beta of two price time series.

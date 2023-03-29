@@ -3,10 +3,10 @@
 #' Calculates the beta of two price time series.
 #'
 #'
-#' @param asset_1 Independant Variable
-#' @param asset_2 Dependant Variable
+#' @param asset_1 Independent Variable
+#' @param asset_2 Dependent Variable
 #'
-#' @return
+#' @return A numeric value: The Beta
 #'
 
 qt_beta <- function(asset_1, asset_2) {
