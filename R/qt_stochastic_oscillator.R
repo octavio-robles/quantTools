@@ -25,3 +25,4 @@ qt_stochastic_oscillator <- function(x) {
   return(oscillator)
 
 }
+

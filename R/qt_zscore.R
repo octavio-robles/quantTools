@@ -14,9 +14,12 @@ qt_zscore <- function(x) {
 
   current_value <- tail(x, 1)
 
-  mu <- mean(x)
 
-  sigma <- sd(x)
+  mu <- tail(x,-1) %>%
+    mean()
+
+  sigma <- tail(x,-1) %>%
+    sd()
 
   zscore <- (current_value - mu) / sigma
 
